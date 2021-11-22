@@ -170,6 +170,9 @@ nav {
   font-size: 2.2rem;
   font-family: auto;
 }
+
+/* botton to top button */
+
 .head-icon {
   color: #11ec5a;
   /* font-size: 2.5rem; */
@@ -203,4 +206,95 @@ nav {
 p {
   font-size: 13px;
   font-family: Verdana, Helvetica, Tahoma, Trebuchet, arial, sans-serif;
+}
+
+/* about section */
+
+h1 {
+  font-family: "monospace", "Helvetica", "Arial", "sans-serif", "Tahoma",
+    "Trebuchet";
+}
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.hborder {
+  width: 175px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 6px auto;
+}
+.about-section {
+  width: 100vw;
+  height: max-content;
+  margin-top: 3em;
+  background: url("abg.jpg") no-repeat;
+  background-size: cover;
+  padding-bottom: 4em;
+}
+.about_us {
+  width: 90vw;
+  margin: 0 auto 2em;
+}
+.about_us .pfirst,
+.about_us .psecond {
+  padding: 15px 24px;
+  word-spacing: 2.3px;
+  font-size: 16px;
+  width: 49vw;
+}
+.about_us .pfirst {
+  margin-bottom: 2em;
+  background: rgb(255, 166, 0);
+  box-shadow: 15px 15px 10px rgb(150, 135, 135);
+}
+.about_us .psecond {
+  margin-left: 49%;
+  background: limegreen;
+  box-shadow: 15px 15px 10px rgb(151, 137, 137);
+}
+@media screen and (max-width: 1462px) {
+  .about_us .pfirst,
+  .about_us .psecond {
+    width: 90vw;
+    margin-left: 0;
+  }
+  .about-section {
+    padding-bottom: 6em;
+  }
+}
+.about_us .pfirst::before {
+  content: "\201C";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -57;
+  margin-right: 4px;
+}
+.about_us .pfirst::after {
+  content: "\201D";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -50;
+  margin-left: 97%;
+}
+.about_us .psecond::before {
+  content: "\201C";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -37;
+  margin-right: 4px;
+}
+.about_us .psecond::after {
+  content: "\201D";
+  font-size: 4rem;
+  height: 0;
+  display: inline-block;
+  vertical-align: -70;
+  margin-left: 97%;
 }
