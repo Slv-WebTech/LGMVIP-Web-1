@@ -11,87 +11,53 @@ header {
   animation-name: mymove;
   animation-direction: alternate;
   animation-iteration-count: infinite;
-  animation-duration: 20s;
+  animation-duration: 30s;
   /* background: url("https://source.unsplash.com/1600x900/?nature,birds&nest");
   background-size: cover;
   background-attachment: fixed; */
 }
 @keyframes mymove {
   0% {
-    background-image: url("gwalior2.jpg");
+    background-image: url("anw.jpg");
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
   }
   20% {
-    background-image: url("gwalior3.jpg");
+    background-image: url("anm1.jpg");
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
   }
   40% {
-    background-image: url("gwalior4.jpg");
+    background-image: url("anw2.jpg");
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
   }
   60% {
-    background-image: url("gwalior5.jpg");
+    background-image: url("anm3.jpg");
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
   }
   80% {
-    background-image: url("gwalior6.jpg");
+    background-image: url("anw4.jpg");
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
   }
   100% {
-    background-image: url("gwalior7.jpg");
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: url("gwalior2.jpg");
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  20% {
-    background-image: url("gwalior3.jpg");
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  40% {
-    background-image: url("gwalior4.jpg");
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  60% {
-    background-image: url("gwalior5.jpg");
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  80% {
-    background-image: url("gwalior6.jpg");
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  100% {
-    background-image: url("gwalior7.jpg");
+    background-image: url("anw5.jpg");
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
   }
 }
 .logo {
-  margin-top: 7px;
+  margin-top: 5px;
   width: 7vw;
-  height: 7vh;
+ 
 }
 @media screen and (max-width: 999px) and (min-width: 733px) {
   .logo {
