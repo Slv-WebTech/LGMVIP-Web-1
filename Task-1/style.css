@@ -57,7 +57,6 @@ header {
 .logo {
   margin-top: 5px;
   width: 7vw;
- 
 }
 @media screen and (max-width: 999px) and (min-width: 733px) {
   .logo {
@@ -263,4 +262,7 @@ h1 {
   display: inline-block;
   vertical-align: -70;
   margin-left: 97%;
+}
+em .fas {
+  font-size: 2rem;
 }
