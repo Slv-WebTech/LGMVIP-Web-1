@@ -12,9 +12,7 @@ header {
   animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-duration: 30s;
-  /* background: url("https://source.unsplash.com/1600x900/?nature,birds&nest");
-  background-size: cover;
-  background-attachment: fixed; */
+ 
 }
 @keyframes mymove {
   0% {
@@ -136,6 +134,11 @@ nav {
   font-family: auto;
 }
 
+.scard:hover {
+  background: skyblue;
+  transition: 0.5sec;
+}
+
 /* botton to top button */
 
 .head-icon {
@@ -193,7 +196,7 @@ h1 {
   margin: 6px auto;
 }
 .about-section {
-  width: 100vw;
+  width: 98vw;
   height: max-content;
   margin-top: 3em;
   background: url("abg.jpg") no-repeat;
@@ -262,7 +265,4 @@ h1 {
   display: inline-block;
   vertical-align: -70;
   margin-left: 97%;
-}
-em .fas {
-  font-size: 2rem;
 }
